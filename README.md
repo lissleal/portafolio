@@ -1,8 +1,44 @@
 ##Curso Introductorio Desafio Latam
-# Semana 5 Git y GitHub
+# Semana 6 Proyecto Final
 
-Este proyecto fue creado para poner en practica conceptos básicos de Git y Github
+Este proyecto fue creado para poner en practica conceptos básicos adquiridos durante todo el curso.
+ 
+<a href="https://github.com/lissleal/CVSophie">PORTAFOLIO</a>
 
-<a href="https://lissleal.github.io/fdsw-github/">Un poco de mi</a>
+
+Proyecto Semana 1
+HTML
+
+<a href="https://github.com/lissleal/CVSophie">Repositorio</a>
+
+<img src="" >
+
+Proyecto Semana 2
+CSS
+
+<a href="https://github.com/lissleal/landingdeco/blob/main/README.md">Repositorio</a>
+
+<img src="" >
+
+Proyecto Semana 3
+Posicionamiento CSS
+
+<a href="https://github.com/lissleal/iguanapage">Repositorio</a>
+
+<img src="" >
+
+Proyecto Semana 4
+Bootstrap
+
+<a href="https://github.com/lissleal/cupponpage">Repositorio</a>
+
+<img src="" >
+
+Proyecto Semana 5
+GITHUB
+
+<a href="https://github.com/lissleal/unpocodemi">Repositorio</a>
+
+<img src="" >
 
 
