@@ -16,7 +16,7 @@ HTML
 Proyecto Semana 2
 CSS
 
-<a href="https://github.com/lissleal/landingdeco/blob/main/README.md">Repositorio</a>
+<a href="https://github.com/lissleal/landingdeco">Repositorio</a>
 
 <img src="./assets/img/capturaproyecto3.jpg" >
 

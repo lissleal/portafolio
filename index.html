@@ -28,9 +28,10 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-info">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="#Hero-Section">
           <img src="assets/img/Web Development Logo.png" class="img-fluid" />
         </a>
         <button
@@ -46,34 +47,39 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
             <li class="nav-item">
-              <a class="nav-link" href="#">Acerca de mi</a>
+              <a class="nav-link" href="#Acerca-de-mi">Acerca de mi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pasatiempos</a>
+              <a class="nav-link" href="#Mis-trabajos">Proyectos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#Contacto">Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
+<!-- Portada -->
     <header id="Hero-Section" class="text-light text-end py-5 mt-5">
       <div class="container">
         <div class="ms-auto col-12 col-md-7">
           <h1 class="display-1 fw-bold my-5">Lissett Leal</h1>
           <p class="my-5"></p>
           <div class="mb-5 pb-5">
-            <button class="btn btn-lg btn-outline-primary text-light me-4">
-              Trabajos
-            </button>
-            <button class="btn btn-lg btn-primary text-light">Contacto</button>
+            <a href="#Mis-trabajos">
+              <button class="btn btn-lg btn-primary text-light me-4">
+                Proyectos
+              </button>
+            </a>
+            <a href="#Contacto">
+              <button class="btn btn-lg btn-primary text-light">Contacto</button>
+            </a>
           </div>
         </div>
       </div>
     </header>
 
+    <!-- Seccion acerca de mi -->
     <section id="Acerca-de-mi" class="container text-center my-5">
       <h2 class="display-3 fw-bold my-4">Acerca de mi</h2>
 
@@ -121,9 +127,10 @@
       </div>
     </section>
 
+    <!-- Seccion de proyectos -->
     <section id="Mis-trabajos" class="my-5 p-5 bg-info">
       <h2 class="display-4 fw-bold text-center text-light mb-3">
-        Mis Trabajos
+        Mis Proyectos
       </h2>
 
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4 g-4">
@@ -133,7 +140,7 @@
             <div class="card-body">
               <h5 class="card-title">CupponPage</h5>
               <p class="card-text">Proyecto para practicar conceptos básicos Bootstrap</p>
-              <a href="#" class="btn btn-primary">Repositorio</a>
+              <a href="https://github.com/lissleal/cupponpage" class="btn btn-primary">Repositorio</a>
             </div>
           </div>
         </div>
@@ -143,7 +150,7 @@
             <div class="card-body">
               <h5 class="card-title">Iguana Page</h5>
               <p class="card-text">Proyecto para practicar posicionamiento CSS</p>
-              <a href="#" class="btn btn-primary">Repositorio</a>
+              <a href="https://github.com/lissleal/iguanapage" class="btn btn-primary">Repositorio</a>
             </div>
           </div>
         </div>
@@ -153,7 +160,7 @@
             <div class="card-body">
               <h5 class="card-title">Home Office</h5>
               <p class="card-text">Proyecto para practicar aspectos iniciales CSS</p>
-              <a href="#" class="btn btn-primary">Repositorio</a>
+              <a href="https://github.com/lissleal/landingdeco" class="btn btn-primary">Repositorio</a>
             </div>
           </div>
         </div>
@@ -163,14 +170,14 @@
             <div class="card-body">
               <h5 class="card-title">CV Sophie</h5>
               <p class="card-text">Proyecto para practicar primeras habilidades HTML</p>
-              <a href="#" class="btn btn-primary">Repositorio</a>
+              <a href="https://github.com/lissleal/CVSophie" class="btn btn-primary">Repositorio</a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-
+<!-- Seccion de contacto -->
     
     <section id="Contacto" class="container my-5">
       <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
@@ -199,12 +206,13 @@
         </div>
 
         <div class="my-3 text-end">
-          <button class="btn btn-info text-light">Enviar</button>
+          <button class="btn btn-primary text-light">Enviar</button>
         </div>
       </form>
     </section>
 
-    <footer class="bg-dark text-center text-light p-4">
+    <!-- Seccion footer -->
+    <footer class="bg-info text-center text-light p-4">
       <p class="mb-0">Lissett Leal 2023. Todos los derechos reservados.</p>
     </footer>
 
