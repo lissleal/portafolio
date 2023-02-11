@@ -1,7 +1,132 @@
 body {
   font-family: "Raleway", sans-serif;
 }
+/* Reseteando propiedades */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
 
+/* Estilos barra de navegacion */
+.barranav {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;  
+}
+.itemmenu {
+color: white;
+text-decoration: none;
+}
+
+/* Estilos main */
+.hero {
+  background-image: url(../img/escritorio.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 50px;
+}
+.hero__titulo {
+  font-size: 80px;
+  color: rgb(125, 82, 165);
+}
+.hero__parrafo {
+  font-size: 25px;
+  background-color: rgba(137, 43, 226, 0.527);
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+}
+
+.dias {
+  background-color: blueviolet;
+  padding: 20px;
+}
+.indicacion {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.ejemplo {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+.ejemplo__imagen {
+  width: 100%;
+}
+
+/* estilos dia 1 */
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+ .resultado {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-family: 'Outfit', sans-serif;
+}
+.fondo1 {
+  background-color: hsl(212, 45%, 89%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.card1 {
+  background-color: white;
+  margin: 10px 25px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.codigobarra {
+  width: 100%;
+  border-radius: 10px;
+}
+.titulo1 {
+  font-weight: 700;
+  font-size: 16px;
+  padding: 0 18px;
+}
+.parrafo1 {
+  font-weight: 400;
+  font-size: 12px;
+  padding: 0 18px 20px 18px;
+}
+
+@media screen and (min-width: 767px) {
+  .dias {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+  }
+}
+/* Esto viene de bootstrap */
 /* Hero Section */
 
 #Hero-Section {
